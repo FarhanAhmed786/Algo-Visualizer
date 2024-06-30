@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    color: aliceblue;
+    box-sizing: border-box;
+}
