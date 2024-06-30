@@ -3,7 +3,7 @@ function Navbar() {
 
   return (
    <>
-     <div className="h-15 bg-slate-100 justify-between text-black flex p-5 gap-10 text-xl flex-wrap ">
+     <div className="h-15 bg-green-200 justify-between text-black flex p-5 gap-10 text-xl flex-wrap ">
      <div className="sm:flex-grow-[3] ">
            <a href="https://bmsit.ac.in/"> <img src={bmsit} alt="Hi" className="h-16 w-18 justify-around" /></a>
         </div>    
