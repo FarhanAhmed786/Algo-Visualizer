@@ -1,3 +1,15 @@
 .btn{
     @apply  bg-neutral-600 flex space-x-8 p-3 rounded-3xl
 }
+.btn2{
+    @apply  bg-white text-green-900 text-lg flex space-x-8 p-3 rounded-3xl
+}
+.pile{
+    @apply bg-teal-500 flex items-end justify-center p-1 mx-[1px] ;
+}
+.tileContainer{
+    @apply flex justify-center items-end m-[20px] p-2
+}
+.visualizerContainer{
+    @apply flex flex-col gap-6
+}

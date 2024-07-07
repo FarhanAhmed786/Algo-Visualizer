@@ -1,4 +1,6 @@
-
 .btn-hover:hover{
     @apply hover:-translate-y-1 hover:text-red-400 transition delay-100;
+}
+.btn-hover2:hover{
+    @apply bg-green-600 text-white transition delay-100;
 }
