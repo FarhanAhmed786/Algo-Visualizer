@@ -6,7 +6,7 @@ import MyButton from "./MyButton";
 function Bubble() {
   const [tile,setTile]=useState([]);
   const [sorted,setSorted] = useState(false);
- 
+  const [speed,setSpeed] = useState(1000);
  
     
   const resetTile = ()=>{
@@ -24,7 +24,7 @@ function Bubble() {
         if (array[j] > array[j + 1]) {
           [array[j], array[j + 1]] = [array[j + 1], array[j]];
           setTile([...array]);
-           await new Promise(resolve => setTimeout(resolve,100));// can implement speed of the algo 
+           await new Promise(resolve => setTimeout(resolve,speed));// can implement speed of the algo 
         }
       }
     }
@@ -41,7 +41,13 @@ function Bubble() {
           ))
         }
       </div>
-      <MyButton resetTile={resetTile} algo={bubble}/>
+      <MyButton resetTile={resetTile} algo={bubble} speed={setSpeed}/>
+      {/* <select name="Speed" id="cars" className="text-green-900 rounded-xl p-3">
+            <option value="saab">Speed</option>
+            <option value="volvo" onClick={()=>(setSpeed(1000))}>slow</option>
+            <option value="saab" onClick={()=>(setSpeed(100))}>medium</option>
+            <option value="mercedes" onClick={()=>(setSpeed(10))}>fast</option>
+          </select> */}
     </div>
       
   )
