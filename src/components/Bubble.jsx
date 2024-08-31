@@ -6,7 +6,7 @@ import MyButton from "./MyButton";
 function Bubble() {
   const [tile,setTile]=useState([]);
   const [sorted,setSorted] = useState(false);
-  const [speed,setSpeed] = useState(1000);
+  const [speed,setSpeed] = useState(300);
  
     
   const resetTile = ()=>{

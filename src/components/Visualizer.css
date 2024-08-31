@@ -2,10 +2,10 @@
     @apply  bg-neutral-600 flex space-x-8 p-3 rounded-3xl
 }
 .btn2{
-    @apply  bg-white text-green-900 text-lg flex space-x-8 p-3 rounded-3xl
+    @apply  bg-[#71c975] text-white text-lg flex space-x-8 p-3 rounded-3xl
 }
 .pile{
-    @apply bg-teal-500 flex items-end justify-center p-1 mx-[1px] ;
+    @apply bg-teal-500 flex items-end justify-center p-1 mx-[1.5px] text-white border border-teal-700;
 }
 .tileContainer{
     @apply flex justify-center items-end m-[20px] p-2

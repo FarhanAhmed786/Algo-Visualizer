@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 .btn-hover:hover{
-    @apply hover:-translate-y-1 hover:text-white transition delay-100;
+    @apply hover:-translate-y-1 hover:text-black transition delay-100;
 }
 .btn-hover2:hover{
-    @apply bg-green-600 text-white transition delay-100;
+    @apply bg-green-500 text-black transition delay-100;
 }
 .p-tag{
     font-family: "Prata", serif;
     font-weight: 700; 
     letter-spacing: 0.7cap;
     font-size: xx-large;
-    text-shadow: black -4px -1px;
+    text-shadow: rgb(16, 114, 113) -4px -1px;
 }
 /* .nav-class{
     background: rgb(2,0,36);
